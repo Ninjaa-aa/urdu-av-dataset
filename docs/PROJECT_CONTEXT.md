@@ -163,11 +163,11 @@ These do not prevent documentation or a provisional plan. Ask before dependent i
 
 ## Evidence and implementation status
 
-Literature and official documentation were inspected during the conversation. No ASR, alignment, or lip-generation candidate has been installed or benchmarked for this project. A local virtual environment now contains acquisition utilities (yt-dlp and imageio-ffmpeg). Urdu alignment support in a repository is not measured boundary accuracy. The claim that no suitable dataset exists and the proposed contribution's novelty are unverified.
+Literature and official documentation were inspected during the conversation. Acquisition and a five-minute faster-whisper ASR experiment have run; details are recorded below. No alignment or lip-generation candidate has been validated. A local virtual environment contains acquisition utilities (yt-dlp and imageio-ffmpeg). Urdu alignment support in a repository is not measured boundary accuracy. The claim that no suitable dataset exists and the proposed contribution's novelty are unverified.
 
-The full TEDx candidate has been downloaded locally and remuxed into an MP4 without re-encoding (excluded from Git). No reviewed dataset clips, transcript correction, forced alignment, phoneme labeling, canonicalization, composition, training, voice transfer, or face transfer have been produced. See `sources/tedx_candidate.json` for the current candidate and evidence status.
+The full TEDx candidate has been downloaded locally and remuxed into an MP4 without re-encoding (excluded from Git). An unreviewed ASR draft now exists. No accepted dataset clips, transcript correction, forced alignment, phoneme labeling, canonicalization, composition, training, voice transfer, or face transfer have been produced. See `sources/tedx_candidate.json` for the current candidate and evidence status.
 
-The next deliverable is the step-by-step pilot workflow in [PILOT_PLAN.md](PILOT_PLAN.md), followed by resolving only the questions needed for the first actual experiment.
+The current next step is human correction of the pilot transcript and review of usable visual intervals, followed by alignment of corrected text. The broader sequence remains in [PILOT_PLAN.md](PILOT_PLAN.md).
 
 ### Source selection follow-up
 
@@ -182,3 +182,17 @@ The user explicitly asked the assistant to use the available Colab access and ru
 Saved notebook: https://colab.research.google.com/drive/1brxsXxNMf_xJ-cyAjllmu-1CJvswAbTz
 
 The notebook and outputs are saved in Drive, while runtime media under `/content` is temporary. A separate local source copy remains available. No transcription, alignment, usable interval selection, or lip-sync evaluation was run. See `sources/tedx_candidate.json` for exact run provenance. Next processing work is to inspect a short interval, confirm language and source synchronization, then transcribe and validate timestamps.
+
+### First transcription experiment — 2026-09-26
+
+The user asked the assistant to perform the next step in Colab. An exploratory five-minute interval (source seconds 90–390) was selected. Source media probing found zero start times for audio and video; the media container duration is 1040.509388 seconds, while YouTube rounds its metadata to 1041 seconds. A mono 16 kHz processing WAV contains exactly 4,800,000 samples. The mapping is source time = clip time + 90 seconds, without a temporal warp. This does not establish perceptual audiovisual synchronization.
+
+The multilingual medium Whisper model ran through faster-whisper 1.2.1 on CPU/int8. It produced 58 transcript segments and 610 estimated word entries in 393.97 seconds, excluding model download/loading and language detection. Automatic language detection preferred Urdu (0.6575); human confirmation remains pending. The draft contains spelling errors and must remain distinguishable from corrected text. Word timestamps are model estimates, not corrected-text forced alignment or phone labels.
+
+Periodic frame review found mixed close views and wide stage shots. The sample is suitable for testing processing, but no interval is yet accepted as corpus material. Before scaling or cutting dictionary entries, review the transcript, word boundaries, continuous mouth visibility, shot boundaries, and audiovisual synchronization. A correction sheet and review derivatives accompany the raw draft.
+
+The run produced 8 low-probability flags and one zero-length word interval, plus 13 candidate scene changes. All 610 occurrence IDs are unique and the source/clip time mappings passed structural checks. The complete 300-second review MP4 decoded locally without errors. Transcript accuracy, boundary accuracy, and lip synchronization remain unmeasured. The nine flags are not an estimate of total errors.
+
+Draft annotations are stored in `annotations/drafts/VD-RK-nY66k_0090_0390/`; the reproducible processing notebook is `notebooks/02_transcribe_urdu_pilot.ipynb`. The full review ZIP was downloaded to `/home/hammad/Downloads/urdu_pilot_0090_0390_review.zip` and extracted under `outputs/pilot_0090_0390/`. Model revision and package versions are pinned to the observed run. The executed notebook and outputs are saved in Colab. The browser review page rendered and video loaded, but the in-app browser crashed during playback; use a regular browser with the downloaded review files. `scripts/serve_review.py` supports byte ranges for seeking.
+
+The immediate human contribution is correcting the Urdu transcript against audio in `utterances_for_review.tsv`. Keep raw text unchanged. After correction, run forced alignment and review boundaries; do not reuse old token times blindly after changing words. No additional scope decision was needed to produce this exploratory draft.

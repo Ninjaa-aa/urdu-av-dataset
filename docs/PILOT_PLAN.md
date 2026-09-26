@@ -1,6 +1,6 @@
 # One-hour Urdu pilot plan
 
-This is a proposed execution plan based on the user's confirmed scope. No collection or model execution has occurred. The plan preserves the requested retrieval/composition baseline and a separate canonical layer.
+This is a proposed execution plan based on the user's confirmed scope. Source acquisition and an initial five-minute ASR test have now run; see `PROJECT_CONTEXT.md` for evidence and remaining checks. The plan preserves the requested retrieval/composition baseline and a separate canonical layer.
 
 ## 1. Define the pilot before acquisition
 

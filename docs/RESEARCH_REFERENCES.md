@@ -6,6 +6,7 @@ These sources were accessed during the project discussion on 2026-09-26. They es
 | --- | --- |
 | [Video Rewrite: Driving Visual Speech with Audio](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/human/bregler-sig97.pdf) | Close historical precedent for compositional visual speech; context-dependent triphones address coarticulation. Does not validate the proposed Urdu pipeline. |
 | [SyncNet: Out of time, automated lip sync in the wild](https://www.robots.ox.ac.uk/~vgg/software/lipsync/) | Audio/video offset estimation and speaking-face identification. Requires validation for chosen Urdu footage and preprocessing. |
+| [faster-whisper](https://github.com/SYSTRAN/faster-whisper) | Used with the multilingual medium model for the five-minute Colab draft. Word timestamps are ASR estimates; this is not corrected-transcript forced alignment or validated phoneme annotation. |
 | [WhisperX alignment implementation](https://github.com/m-bain/whisperX/blob/main/whisperx/alignment.py) | The inspected source lists Urdu with `kingabzpro/wav2vec2-large-xls-r-300m-Urdu`. Listing support is not measured alignment accuracy; word/character output is not automatically phone alignment. |
 | [MFA Urdu CV dictionary](https://mfa-models.readthedocs.io/en/latest/dictionary/Urdu/Urdu%20CV%20dictionary%20v2_0_0.html) | Urdu pronunciation resource. A dictionary alone is not a complete validated acoustic alignment pipeline. |
 | [PronouncUR: An Urdu Pronunciation Lexicon Generator](https://arxiv.org/abs/1801.00409) | Urdu grapheme-to-phoneme and pronunciation-lexicon research. Implementation suitability and coverage require checking. |
@@ -25,4 +26,4 @@ These sources were accessed during the project discussion on 2026-09-26. They es
 - Do not call any candidate the best Urdu method without a comparison.
 - The abstract's dataset-gap claims need systematic verification before publication.
 - Keep publication/version information separate from search-engine crawl dates.
-- No source transcript, downloaded video dataset, or pretrained weight is included in this repository.
+- The private repository now includes an unreviewed five-minute ASR draft. Source media and pretrained weights remain excluded.

@@ -13,8 +13,12 @@
   "listed_audio_format": "140",
   "platform_language": "hi",
   "verified_spoken_language": null,
-  "review_status": "downloaded; three frames visually inspected; spoken language, continuous shot suitability and audio-video synchronization still unverified",
-  "pilot_interval": null,
+  "review_status": "five-minute ASR draft produced; periodic frames show mixed wide and close shots; corrected transcript, continuous visual eligibility and lip synchronization still unverified",
+  "pilot_interval": {
+    "source_start_seconds": 90.0,
+    "source_end_seconds": 390.0,
+    "status": "exploratory processing sample; not accepted corpus footage"
+  },
   "dataset_reuse_permission": "not established; TED standard policy restricts derivatives and unauthorized dubbing",
   "policy_url": "https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy",
   "execution_environment": "Google Colab selected by user",
@@ -43,5 +47,11 @@
     "sha256": "9fb676e6efea3e2b2dc46399fc93f296e9f8d3518a7abaf7d7737fb845be70c9",
     "verification": "Manifest readback and file-size assertion passed; first two seconds decoded with both audio and video. No full-file integrity or synchronization assessment.",
     "storage": "Runtime media is temporary. Notebook saved in Drive; local source copy also retained."
+  },
+  "automatic_language_estimate": {
+    "language": "ur",
+    "probability": 0.6575193405151367,
+    "method": "faster-whisper medium language detection on pilot audio",
+    "human_verified": false
   }
 }

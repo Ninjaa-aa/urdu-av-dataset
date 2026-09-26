@@ -1,0 +1,79 @@
+{
+  "sample_source_start": 90.0,
+  "sample_source_end": 390.0,
+  "segments": 58,
+  "word_occurrences": 610,
+  "flagged_words": 9,
+  "flags": [
+    {
+      "occurrence_id": "VD-RK-nY66k_0090_w00045",
+      "word": " سے",
+      "reasons": [
+        "low_model_probability"
+      ]
+    },
+    {
+      "occurrence_id": "VD-RK-nY66k_0090_w00061",
+      "word": " میں",
+      "reasons": [
+        "low_model_probability"
+      ]
+    },
+    {
+      "occurrence_id": "VD-RK-nY66k_0090_w00132",
+      "word": " کے",
+      "reasons": [
+        "low_model_probability"
+      ]
+    },
+    {
+      "occurrence_id": "VD-RK-nY66k_0090_w00139",
+      "word": " اس",
+      "reasons": [
+        "low_model_probability"
+      ]
+    },
+    {
+      "occurrence_id": "VD-RK-nY66k_0090_w00248",
+      "word": " تھے",
+      "reasons": [
+        "low_model_probability"
+      ]
+    },
+    {
+      "occurrence_id": "VD-RK-nY66k_0090_w00304",
+      "word": " اور",
+      "reasons": [
+        "low_model_probability"
+      ]
+    },
+    {
+      "occurrence_id": "VD-RK-nY66k_0090_w00363",
+      "word": " کہ",
+      "reasons": [
+        "low_model_probability"
+      ]
+    },
+    {
+      "occurrence_id": "VD-RK-nY66k_0090_w00478",
+      "word": " اور",
+      "reasons": [
+        "low_model_probability"
+      ]
+    },
+    {
+      "occurrence_id": "VD-RK-nY66k_0090_w00593",
+      "word": " ہے",
+      "reasons": [
+        "very_short_or_zero_duration"
+      ]
+    }
+  ],
+  "candidate_scene_cuts": 13,
+  "structural_bounds_check": "passed",
+  "transcript_accuracy": "not measured; human correction pending",
+  "word_boundary_accuracy": "not measured; ASR estimates only",
+  "phoneme_labels": "not produced",
+  "audiovisual_sync": "not validated",
+  "visual_eligibility": "mixed close and wide shots; no interval accepted yet"
+}

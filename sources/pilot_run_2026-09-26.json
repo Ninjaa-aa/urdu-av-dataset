@@ -1,0 +1,35 @@
+{
+  "source_id": "VD-RK-nY66k",
+  "sample_source_seconds": [
+    90,
+    390
+  ],
+  "colab_url": "https://colab.research.google.com/drive/1brxsXxNMf_xJ-cyAjllmu-1CJvswAbTz",
+  "created_at_utc": "2026-09-26T18:45:00.164024+00:00",
+  "model_id": "Systran/faster-whisper-medium",
+  "model_revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+  "versions": {
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.8.2",
+    "av": "18.1.0"
+  },
+  "segments": 58,
+  "word_entries": 610,
+  "flags": {
+    "low_model_probability": 8,
+    "zero_length_interval": 1
+  },
+  "candidate_scene_cuts": 13,
+  "checks": [
+    "4,800,000 PCM samples at 16 kHz",
+    "610 unique occurrence IDs",
+    "610 source = clip + 90 mappings",
+    "word boundaries within clip bounds",
+    "ZIP integrity passed",
+    "full 300-second review audio/video decode passed"
+  ],
+  "review_status": "unreviewed draft; no accepted corpus units",
+  "preview_ui": "HTML rendered and video loaded at 300 seconds; playback started but the in-app browser crashed. External browser review recommended.",
+  "bundle_size_bytes": 24434101,
+  "bundle_sha256": "66b694b62601dd58378341b26963bfa311d31767f70fc0fc2e50d7179a1e67b1"
+}
