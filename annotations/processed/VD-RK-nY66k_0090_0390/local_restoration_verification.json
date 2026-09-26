@@ -1,0 +1,989 @@
+{
+  "method": "Re-export from the same source and Colab annotations using the committed pipeline. All WAVs match Colab hashes. Video frame counts, sizes and fps agree with Colab records; all video/audio streams fully decoded. Some full-view MP4 encodings have different bytes. Original export_verification.json describes Colab files; this file describes restored local files.",
+  "files": [
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_002_av.mp4",
+      "sha256": "815a168587d7045253018ef41d9095cd58df089fd0ae16a662d8d95b86ee9a91",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 17,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_002_face.mp4",
+      "sha256": "ed20a92678aaed6611eef6a6f793f883b2901298d4bbba5808bb3fef6aa40726",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 17,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_002_mouth.mp4",
+      "sha256": "3bb4e8e11e734e1685aa38e7ae579c4670739ea578fa6d66d4e416c5c969471c",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 17,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_002_audio.wav",
+      "sha256": "7cc73af2a862c7e6a5709ad1f40152c53528c867d265c7af0622c7a9099e07b4",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_003_av.mp4",
+      "sha256": "dc078627c3f7ceeb96b5b0630b01e5063ae9cda77045990ac64ddb0e939a40e8",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 22,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_003_face.mp4",
+      "sha256": "15432989d77762803466dce09087fd7dbb913b4836a55ed7895c179e3add944d",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 22,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_003_mouth.mp4",
+      "sha256": "692624c4493d8904926858f83a9b5f84497555720ec6d6e737bc13aa7762ef83",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 22,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_003_audio.wav",
+      "sha256": "557ae78421d44faa150d50c17da18aab2f81490b2c0fcd8aa98d720fbd6d21c1",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_004_av.mp4",
+      "sha256": "3cba337bf76e2ab5cb185e841fa447d9333792bf397875febde03de65548f6a3",
+      "matches_colab_bytes": false,
+      "decoded": true,
+      "frames": 21,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_004_face.mp4",
+      "sha256": "6b05bc3c39873cd077f51471f51a2876c4d4d5e970c707db64f23e2583a24317",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 21,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_004_mouth.mp4",
+      "sha256": "b7816563c6adab881a405c2231f093567724ac0a400169222caf20367ac626f8",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 21,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_004_audio.wav",
+      "sha256": "9b2c43839d54ef38ddc79c09e3a89ce161c07f3a63afd89be231985704dedc2d",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_005_av.mp4",
+      "sha256": "dea36d5c3315d06bdab11c3ef78ba0b9fc97946dd890965ca361ef86a70f557a",
+      "matches_colab_bytes": false,
+      "decoded": true,
+      "frames": 15,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_005_face.mp4",
+      "sha256": "7e8c2cd2ffa3fe956e50f8189c518263a01cf06d6bb706886ccc3d58533edb42",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 15,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_005_mouth.mp4",
+      "sha256": "1d4288772b1397203e80af2f82ef268092182ef6627d60cbf114eb50ae884106",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 15,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_005_audio.wav",
+      "sha256": "3132bfa5f7e41d3cd941a14d4a9a160fb0887bf83b50213c15ceeb653d7170e5",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_006_av.mp4",
+      "sha256": "2c39ffc82cad9e6bffb77b3913a1b58b63a2488ec1a32c2c7b3a5cdd704eb1c2",
+      "matches_colab_bytes": false,
+      "decoded": true,
+      "frames": 13,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_006_face.mp4",
+      "sha256": "ad9fa0c5c3b2c8010ac7908fe8f279f113039722bacb280ea42a4db0536a0da0",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 13,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_006_mouth.mp4",
+      "sha256": "a806270553f2aea7cd034c0818eb6cd19590c20cf752e0440de7c1d7182e608e",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 13,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a014_006_audio.wav",
+      "sha256": "3b0c9fabe7a55df07f2e1c9b529c32473931807b22d6760efe0055088d17f283",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a021_002_av.mp4",
+      "sha256": "e44c7e1637ba1bcff43da7c2eb2a23de8fcaaadb2c6a7d207cbc9cfa1b971664",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 18,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a021_002_face.mp4",
+      "sha256": "a3db7ed4c8e922033dd77b4f340c21822422978edea334da1999dfa4de20ca43",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 18,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a021_002_mouth.mp4",
+      "sha256": "7429a8ae8dc96cca98a2a7b425ce269d05a9a50a0e3e64b30ea2e22ccf227319",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 18,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a021_002_audio.wav",
+      "sha256": "28f9c205029294df438c73c8bff3433d6d6aaa2a98f58de5f426afa2c6a5ba70",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a021_003_av.mp4",
+      "sha256": "77c5c02330c13f5a3f66c6ea26bc8f72e0cbe8ace81c7a1b8460729b880475de",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 44,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a021_003_face.mp4",
+      "sha256": "9a97846c707d0007c739aeab077702a627779c54bb6d5327687739efc2b488fb",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 44,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a021_003_mouth.mp4",
+      "sha256": "76d11cb9477c2e52691a500da9544fc5249fb8c7d5f15a60955e3b6264ec39b9",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 44,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a021_003_audio.wav",
+      "sha256": "710b2d31d721aa0a27fb01d8063164db7eb14dd4c50f25d6f46ee93076ee2212",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_000_av.mp4",
+      "sha256": "5f316999f856fcc9458932a51cf7d80799ba87b99278ae8c3eaa14ae1d0de437",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 20,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_000_face.mp4",
+      "sha256": "78743834a56c4cc5c063b2ad5c97f1a107b2a8b1f95fd7b55d9e14d2750c0818",
+      "matches_colab_bytes": false,
+      "decoded": true,
+      "frames": 20,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_000_mouth.mp4",
+      "sha256": "32e993c96d4acfdde578ac1c9944afeaafa623db26411c2dd3a0bc57e4906726",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 20,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_000_audio.wav",
+      "sha256": "bca51bc781f212c9f3245a44bbf2c20786ef3b6bb5634b61d36aee60710769c7",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_001_av.mp4",
+      "sha256": "3fefc7126bfa5e48c6c6fe29c7622536835450abd70c46ce95172d271aa766e6",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 21,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_001_face.mp4",
+      "sha256": "d62d6198533510208be5138f6d5a2da84904753afbfe09d70269de05b1da2f4c",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 21,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_001_mouth.mp4",
+      "sha256": "3ba7d2ff8e45bf7fdd3df73b6de4ca01989f171d773661f588a7cbe73d345d07",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 21,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_001_audio.wav",
+      "sha256": "088ed567e2b6269dd4a4e7a8eca14029bd76fb5817e9cd13c3a30bb48c59b3a1",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_002_av.mp4",
+      "sha256": "b6b138df827952c6575d27a0c8d8affc993427b08329fa2d6b9032e4e08356eb",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 26,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_002_face.mp4",
+      "sha256": "5d196d64a0781ebe0ea4d8a600ef60fe10001323d7028b29eeecf43a5d5b3a90",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 26,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_002_mouth.mp4",
+      "sha256": "540436cf977c148115d453e7f6114313500b410aed09cee0a3b377493ec7bc96",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 26,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_002_audio.wav",
+      "sha256": "f667c8cf4bbbfd2bdb18a6f948ad257cb1b9fba723ab35612de78f511344a3b9",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_003_av.mp4",
+      "sha256": "936ba0983b8e7b47704f8ee2a94183ef8cdb5f2b88f5a06f93eecc8039253426",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 17,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_003_face.mp4",
+      "sha256": "02c6e50f25bdc90100b07681901d4f22ba9619fecef4ae9c756bf0971b54f593",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 17,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_003_mouth.mp4",
+      "sha256": "1562f81db4a3578afa95881c0c5d9e2eaedd91ee9ed599e275f5f4bd5371fee5",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 17,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_003_audio.wav",
+      "sha256": "7d63667678b130f9feeb5cb71564085779401e624870879f4c014ebf3ea70186",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_004_av.mp4",
+      "sha256": "9dfe58ff01a97f6fcba26aba8283800626740f46d69e601837d361039cc34055",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 12,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_004_face.mp4",
+      "sha256": "094ccf3a7f3270320bf513e36e88d3cf9821eaca1b51e7ede424718014fe4dd0",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 12,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_004_mouth.mp4",
+      "sha256": "b2fc467700cdc34428c05bc3a0186cad95c3e7466c655fde720b814567ebcadc",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 12,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_004_audio.wav",
+      "sha256": "31ad6faf83cb42f3fe46b16fbb21c6d26919bdbc17e47f28d61cb81850e37120",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_005_av.mp4",
+      "sha256": "e75524626c3b41709500d2248e69278a3445c37ccf4fc44b25fc485df0ede6da",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 22,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_005_face.mp4",
+      "sha256": "03b3c34fd0d7cf3112c1bfe32a853747c90a8ae7594c5c073a624674a3eae268",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 22,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_005_mouth.mp4",
+      "sha256": "d4d85bc478245bbc66fc5774ef488846d42f7a3d2ec4d91c8f8d2935b4d58572",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 22,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a022_005_audio.wav",
+      "sha256": "93147763b3745f2fd8c81e5e5b2c9f4bc40fa12a5636e2ff90689b956a40ea46",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a025_003_av.mp4",
+      "sha256": "8e3e3b38b769982f817e609e7f5d335caff2555bc866d152dd71586da82407d3",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 19,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a025_003_face.mp4",
+      "sha256": "3779a6fd510cee6018504dc17b5a53290c1a9e6b4ef370b7c905430a16b6e8d4",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 19,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a025_003_mouth.mp4",
+      "sha256": "fec2160f91432bee4510fe017c5e4d2e7601aefed8857671eb60e2b07b131492",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 19,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a025_003_audio.wav",
+      "sha256": "bced14da05f560bcf656f1f7480fde69ebfb5987b088147baa379408f5b3acd6",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a025_004_av.mp4",
+      "sha256": "e4eb73b58e71a47adeb622518bd1bc9050672d9586ccb1b3b111227690530e94",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 22,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a025_004_face.mp4",
+      "sha256": "aa5a6600b1b7d5e2dd85a85c98a8742b4727d49ba8200663f1899f865bf130bc",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 22,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a025_004_mouth.mp4",
+      "sha256": "8c3c7bc31ec8e0541dc91048ab18c5a30042aba3d5b07cbec5dcb083d6da5f8a",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 22,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a025_004_audio.wav",
+      "sha256": "6bf06d92d0104f23507cd88edec469fb24915b53627e86ca5f5ee381e137793e",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a025_005_av.mp4",
+      "sha256": "0ed52d402054db4248dfe61fe48242eb29af78c87b73c54e7912bb6e7590ab5d",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 13,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a025_005_face.mp4",
+      "sha256": "8324c96a86ffa8b1e5fac9949361055540ca20da03a3459dc9e3cbec2dfdac2a",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 13,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a025_005_mouth.mp4",
+      "sha256": "0584025f88984ddd79245167f461203ae393137eafc909f6d91dc127e9995ef6",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 13,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a025_005_audio.wav",
+      "sha256": "72263a1f02dd141f847f86c8d3f755dcebddeea53e144e1d32631eb51126718b",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a025_006_av.mp4",
+      "sha256": "3ed9214c05014b275a4f8b04f10104d2218e2b8b2367ab383e410a0fab2e83a6",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 23,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a025_006_face.mp4",
+      "sha256": "3f1be69c665a1df1e8eb09b31e2f0d50958079946e14b7af89b53b86c1bdb1b0",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 23,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a025_006_mouth.mp4",
+      "sha256": "1ec008b6b9abdbfe5ffe2bf10ee9d2096ee3fb1394153b564cb3bee5d249cc52",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 23,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a025_006_audio.wav",
+      "sha256": "819da478731430ea6b3a9c2c6e9491f449aded3dc57850f8e3626c01e733433e",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_000_av.mp4",
+      "sha256": "3319746d5c16163e95116a8b7a8d54f5618b167175bf5a1108a457c814b81c9d",
+      "matches_colab_bytes": false,
+      "decoded": true,
+      "frames": 11,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_000_face.mp4",
+      "sha256": "707afd4b3b2ecc68e7f1606e6f2adaec489ab3143e098c3a32d131dfa0a72275",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 11,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_000_mouth.mp4",
+      "sha256": "651b8c798cb3aa63d7bf7b3365ba764a937e429df4698b3c75b8b087c70e9df4",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 11,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_000_audio.wav",
+      "sha256": "2d5be561de77e2bd5c72ea02483a71d541059574f435001b76e76e9225b56ee9",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_001_av.mp4",
+      "sha256": "f38e7160dc50842c3dd3c49812be5578e861e139cd5b805f1ab12853bb83e201",
+      "matches_colab_bytes": false,
+      "decoded": true,
+      "frames": 22,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_001_face.mp4",
+      "sha256": "2505774ce0583bedd50623257d1f74c499248454166830093f3f0576f335618c",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 22,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_001_mouth.mp4",
+      "sha256": "b9e258e787801c25c2f945a491fc21e7531b544475aad2a8f98da6c3f002f8c9",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 22,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_001_audio.wav",
+      "sha256": "e92c52bf65c0c771039a03180ad25733da8873b759041f5b10d7fe6554ecd9a7",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_002_av.mp4",
+      "sha256": "3d9b3bd37f87e51353b56a6ca3bb38bffc49a4c61186977a417ecaacc1dcdc0a",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 11,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_002_face.mp4",
+      "sha256": "fb585b72e84873528cca9e392b21271150eee96a71e83f3de55b6756fa876b87",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 11,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_002_mouth.mp4",
+      "sha256": "6769a012831bd037130fa4abf10492da32d7ee60a0b2298103da9cbc40f9c9f5",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 11,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_002_audio.wav",
+      "sha256": "490976b7387890d4e5489256de2d10fb89c82d35905f56252c9963e2ece4c9d8",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_003_av.mp4",
+      "sha256": "01da4913b011caa06cb12c87ef42163482ca46bca09409972f138708e5e89f4d",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 21,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_003_face.mp4",
+      "sha256": "adb85ca795224b0be5f78087bf583aeaca8f0a6732dea5b9bfa56809ed7c556e",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 21,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_003_mouth.mp4",
+      "sha256": "1702d7a1109430a71cb3ea1063a49b61ec88c0b3f5d08c1e3c979fc10a8703cf",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 21,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_003_audio.wav",
+      "sha256": "2a19bef74a0bb4915757ec3a7ca3fb68e3a5b9aaa3b1fd7d4b96c7e84e0d8395",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_004_av.mp4",
+      "sha256": "75b077afd1a9ca083f69176e3d6e2c7453725d39015219253692e6ccd12d0303",
+      "matches_colab_bytes": false,
+      "decoded": true,
+      "frames": 12,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_004_face.mp4",
+      "sha256": "421d664781ae1a3b7d81261689006d5af3cb781ceab6c253f2c4d006d8e78bd7",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 12,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_004_mouth.mp4",
+      "sha256": "b86c9b73b2356c20ae81521535206fe138732b1cf1747852a633312a855068a7",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 12,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_004_audio.wav",
+      "sha256": "1591056614b1c6a1f082b8d15ecc500e72cdb5eb1ca1b6a74b454de650d94e5a",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_005_av.mp4",
+      "sha256": "4dc922ff9fe27c691d245e28192b85706ef86b52555050020e928db00f18d7f0",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 19,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_005_face.mp4",
+      "sha256": "5fc10048fb67ca691960e3e7f0363ce946eff67441bc6c996870c8812d86ca44",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 19,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_005_mouth.mp4",
+      "sha256": "6757b9594c855db474784fc49e5727b6eb4269594520c22aa36e1a2969ff7646",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 19,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_005_audio.wav",
+      "sha256": "3ba5163a23a6dec804c6542f824bce4ee6e50abca87b15fc1089e151f8a7dc63",
+      "matches_colab_bytes": true
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_006_av.mp4",
+      "sha256": "504aa8588c29708432b520f38bb23dc9e40b48a1642906478836f09339e36802",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 13,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_006_face.mp4",
+      "sha256": "86c7abe9fdd53e5d4216dc9e9d848ad4c4f657c7646ad5953fc2894acc0a77bc",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 13,
+      "size": [
+        256,
+        256
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_006_mouth.mp4",
+      "sha256": "a8d4c49c1373f24549cae8533f34d001e92f528162baa797fd7bae9e08cb592c",
+      "matches_colab_bytes": true,
+      "decoded": true,
+      "frames": 13,
+      "size": [
+        160,
+        96
+      ],
+      "fps": 30.0
+    },
+    {
+      "file": "clips/VD-RK-nY66k_0090_a047_006_audio.wav",
+      "sha256": "1f9dcc17f82da9af063c3f3626a0b27874fe1db09879596ba3938613cb6a9706",
+      "matches_colab_bytes": true
+    }
+  ]
+}

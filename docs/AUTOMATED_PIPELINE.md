@@ -2,7 +2,7 @@
 
 Decision recorded on 2026-09-27: dataset construction should run without mandatory manual labeling. The user reviewed the existing five-minute transcript and accepts its text without edits. That confirmation covers the transcript, not its word boundaries or lip synchronization.
 
-This document specifies the next implementation. Acquisition and draft transcription already run in Colab; the remaining stages below have not been executed for this project.
+This document describes the intended automated workflow. The five-minute implementation is documented in [PILOT_IMPLEMENTATION.md](PILOT_IMPLEMENTATION.md); its run report records completed stages and measured counts. Proposed retries, phonetic labeling and multi-video scaling should not be inferred from the implemented pilot.
 
 ## Processing sequence
 

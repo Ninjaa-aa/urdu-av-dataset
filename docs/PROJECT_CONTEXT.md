@@ -163,11 +163,9 @@ These do not prevent documentation or a provisional plan. Ask before dependent i
 
 ## Evidence and implementation status
 
-Literature and official documentation were inspected during the conversation. Acquisition and a five-minute faster-whisper ASR experiment have run; details are recorded below. No alignment or lip-generation candidate has been validated. A local virtual environment contains acquisition utilities (yt-dlp and imageio-ffmpeg). Urdu alignment support in a repository is not measured boundary accuracy. The claim that no suitable dataset exists and the proposed contribution's novelty are unverified.
+The five-minute pipeline has completed acquisition, user-accepted transcription, forced alignment, automatic visual and sync filtering, paired export, searchable indexing and media verification. It produced 24 automatically filtered occurrences covering 23 distinct written words. See [PILOT_RESULTS.md](PILOT_RESULTS.md) for measured counts and limitations. Automatic candidate status does not establish independent annotation accuracy.
 
-The full TEDx candidate has been downloaded locally and remuxed into an MP4 without re-encoding (excluded from Git). An unreviewed ASR draft now exists. No accepted dataset clips, transcript correction, forced alignment, phoneme labeling, canonicalization, composition, training, voice transfer, or face transfer have been produced. See `sources/tedx_candidate.json` for the current candidate and evidence status.
-
-The current next step is automatic alignment of the user-accepted transcript, followed by automated visual and sync filtering. The broader sequence remains in [PILOT_PLAN.md](PILOT_PLAN.md).
+The dated notes below retain earlier intermediate states. The final execution entry supersedes their pending-work statements. No phoneme labels, canonicalization, composition, training, voice transfer or face transfer have been produced.
 
 ### Source selection follow-up
 
@@ -204,3 +202,15 @@ The user clarified that they want automated dataset construction and do not want
 The user's confirmation is recorded separately in `sources/transcript_review_2026-09-27.json`, tied to the raw transcript hash. It does not establish a measured WER, correct word boundaries, or audiovisual synchronization. The raw output and its original generation-time status remain unchanged.
 
 `AUTOMATED_PIPELINE.md` specifies alignment, visual filtering, speaking-face/sync checks, paired export and a searchable occurrence dictionary. It proposes bounded retries and automatic exclusion of uncertain entries without requiring per-item manual corrections. Automatic labels retain model provenance and uncertainty. These additional processing stages have not yet run. The next operation is Urdu forced alignment of the accepted transcript.
+
+### Automated pilot completed — 2026-09-27
+
+The user asked to complete the remaining five-minute work. Alignment processed all 610 entries; 573 passed provisional alignment checks. YuNet face detection followed by MediaPipe landmarks produced 5,552 passing frames out of 9,000. SyncNet evaluated 25 continuous windows and accepted four at zero estimated offset. Full outputs retain rejected entries and reasons.
+
+The first whole-frame detector missed small faces; its diagnostic outputs are preserved. The revised detector improved acquisition without changing quality cutoffs. Many sync estimates were 120–160 ms, while four windows were near zero; no global correction or temporal warp was applied. These offsets are model estimates, not proof of a source fault.
+
+The export contains 24 occurrences, 23 distinct written words, and 96 media files (full AV, face AV, mouth AV and WAV for each). Unique retained coverage is 11.8 seconds; contextual clip durations sum to 15.13 seconds. All files passed the implemented verification. A 48 kHz waveform comparison grid resolves fractional sample phases arising from 30 fps cuts; output WAVs remain 16 kHz. Seven local implementation tests passed.
+
+The corpus remains an automatically filtered research pilot. No independent WER, word-boundary accuracy or perceptual lip-sync accuracy has been measured. Phonemes, canonical representations, sentence composition and speaker transfer remain later work. Scaling should follow investigation of the low synchronization yield rather than simply weakening filters.
+
+Final storage: processed annotations and their provenance are under `annotations/processed/VD-RK-nY66k_0090_0390/`. Browser downloads failed, so the full final JSON metadata was saved in the Colab notebook source and retrieved through Google Drive. Local source plus those annotations reproduced the 96 media files; 89 match Colab bytes, and all 72 MP4s pass local decoding/frame geometry checks. All 24 WAVs are byte-identical. The restored ZIP and offline HTML/SQLite dictionary are under `outputs/`, excluded from Git. Original Colab and local verification records are kept separate. Initial detector diagnostics remain only in the Colab runtime bundle. The saved Colab header now reports the final results; earlier cells retain intermediate history.

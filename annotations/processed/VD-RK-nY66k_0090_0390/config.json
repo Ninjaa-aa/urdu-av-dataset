@@ -1,0 +1,14 @@
+{
+  "min_word_seconds": 0.04,
+  "max_word_seconds": 2.0,
+  "min_alignment_score": 0.1,
+  "min_mouth_pixels": 28,
+  "min_face_height": 100,
+  "max_yaw_degrees": 40,
+  "min_mouth_laplacian": 15,
+  "max_landmark_jump": 0.3,
+  "sync_confidence": 3.0,
+  "max_sync_offset_frames": 2,
+  "context_seconds": 0.12,
+  "face_detection_score": 0.9
+}
