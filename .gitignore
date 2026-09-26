@@ -1,0 +1,28 @@
+# Secrets and local environments
+.env
+.env.*
+!.env.example
+*credentials*
+*cookies*
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Research data, model artifacts, and generated outputs
+data/
+downloads/
+outputs/
+checkpoints/
+models/
+.cache/
+*.wav
+*.mp3
+*.mp4
+*.mkv
+*.webm
+*.flac
+*.pt
+*.pth
+*.safetensors
