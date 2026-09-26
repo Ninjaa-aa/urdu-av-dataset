@@ -19,7 +19,7 @@
   "policy_url": "https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy",
   "execution_environment": "Google Colab selected by user",
   "checked_on": "2026-09-26",
-  "download_status": "complete locally; Colab not run",
+  "download_status": "complete locally and in Colab",
   "local_media_path": "data/raw/VD-RK-nY66k.mp4",
   "size_bytes": 186540168,
   "sha256": "9fb676e6efea3e2b2dc46399fc93f296e9f8d3518a7abaf7d7737fb845be70c9",
@@ -32,5 +32,16 @@
       300
     ],
     "observation": "One visible speaker in each inspected frame; face and mouth unobstructed, roughly frontal to three-quarter views. Strong stage lighting. Sampled frames only, not a full shot or mouth-resolution assessment."
+  },
+  "colab_run": {
+    "notebook_url": "https://colab.research.google.com/drive/1brxsXxNMf_xJ-cyAjllmu-1CJvswAbTz",
+    "retrieved_at_utc": "2026-09-26T18:29:41.032686+00:00",
+    "runtime": "CPU, Python 3 Google Compute Engine",
+    "video_path": "/content/urdu-av-pilot/raw/VD-RK-nY66k.mp4",
+    "manifest_path": "/content/urdu-av-pilot/raw/source_manifest.json",
+    "size_bytes": 186540168,
+    "sha256": "9fb676e6efea3e2b2dc46399fc93f296e9f8d3518a7abaf7d7737fb845be70c9",
+    "verification": "Manifest readback and file-size assertion passed; first two seconds decoded with both audio and video. No full-file integrity or synchronization assessment.",
+    "storage": "Runtime media is temporary. Notebook saved in Drive; local source copy also retained."
   }
 }

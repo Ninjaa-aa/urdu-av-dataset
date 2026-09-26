@@ -12,7 +12,7 @@ Research planning for a reusable Urdu audiovisual speech corpus and a compositio
 - [Pilot plan](docs/PILOT_PLAN.md): proposed steps, outputs, and checks; implementation choices remain provisional.
 - [Original research proposal](docs/ORIGINAL_PROPOSAL.md): the user's abstract and titles, retained without rewriting their scope claims.
 - [Research references](docs/RESEARCH_REFERENCES.md): sources examined during the discussion and their relevance.
-- [Colab acquisition notebook](notebooks/01_acquire_tedx_candidate.ipynb): download this notebook and upload it through Colab's **File → Upload notebook**. This avoids requiring Colab access to the private GitHub repository. It has not been executed in Colab.
+- [Colab acquisition notebook](notebooks/01_acquire_tedx_candidate.ipynb): download this notebook and upload it through Colab's **File → Upload notebook**. This avoids requiring Colab access to the private GitHub repository. Executed successfully on 2026-09-26: [saved Colab run](https://colab.research.google.com/drive/1brxsXxNMf_xJ-cyAjllmu-1CJvswAbTz). Video acquisition and a two-second audio/video decode check passed; transcription and alignment have not run.
 - [First TEDx candidate](sources/tedx_candidate.json): verified platform metadata and outstanding language, quality, synchronization, and reuse checks.
 - [Pipeline diagram](references/multilingual-pipeline.png) and [metadata diagram](references/unit-metadata.png): original user-supplied references. The multilingual scope in the first diagram is superseded by the Urdu-only pilot decision.
 

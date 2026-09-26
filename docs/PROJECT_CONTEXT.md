@@ -173,4 +173,12 @@ The next deliverable is the step-by-step pilot workflow in [PILOT_PLAN.md](PILOT
 
 The user asked the assistant to find/get a TEDx video and said they would run the processing on Google Colab. Candidate: "Urdu-Mera Payaam-e-Muhabbat | Dr. Arfa Zehra | TEDxUCP", official TEDx Talks channel, https://www.youtube.com/watch?v=VD-RK-nY66k. YouTube reports 1,041 seconds and offers a 1080p/30 fps video stream. Its audio metadata says `hi`; actual spoken language must be reviewed rather than silently relabeled. Frames at 90, 180, and 300 seconds show one speaker with an unobstructed face/mouth. This is a visual spot check only; continuous usable intervals and synchronization remain unverified.
 
-The current TED usage policy restricts derivative clips/remixes and unauthorized dubbing, so this candidate is not cleared for the intended reusable dataset release. No permission request has been sent. The acquisition notebook is preparation for inspection, not a completed Colab run or a grant of reuse rights.
+The current TED usage policy restricts derivative clips/remixes and unauthorized dubbing, so this candidate is not cleared for the intended reusable dataset release. No permission request has been sent. Acquisition does not grant reuse rights.
+
+### Colab execution follow-up — 2026-09-26
+
+The user explicitly asked the assistant to use the available Colab access and run the notebook. The assistant imported and executed `notebooks/01_acquire_tedx_candidate.ipynb` in the signed-in Colab account on a CPU runtime. All acquisition cells completed. The full source MP4 (186,540,168 bytes) and source manifest were created under `/content/urdu-av-pilot/raw/`. A two-second audio/video decode check and manifest/file-size readback passed. The Colab SHA-256 matches the local source file.
+
+Saved notebook: https://colab.research.google.com/drive/1brxsXxNMf_xJ-cyAjllmu-1CJvswAbTz
+
+The notebook and outputs are saved in Drive, while runtime media under `/content` is temporary. A separate local source copy remains available. No transcription, alignment, usable interval selection, or lip-sync evaluation was run. See `sources/tedx_candidate.json` for exact run provenance. Next processing work is to inspect a short interval, confirm language and source synchronization, then transcribe and validate timestamps.
