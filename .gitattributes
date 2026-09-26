@@ -1,0 +1,2 @@
+# TSV exports deliberately preserve CRLF and empty trailing review columns.
+*.tsv whitespace=-blank-at-eol,cr-at-eol
