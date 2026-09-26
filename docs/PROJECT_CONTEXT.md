@@ -23,6 +23,8 @@ The user initially proposed collecting 100 hours of Urdu YouTube videos, transcr
 | Alternative method | Keep articulation/identity transfer during composition as another option. |
 | Continuity | Save the history and decisions in a dedicated folder and put the project material in GitHub. |
 | Clarification preference | Ask about consequential unknowns before assuming. |
+| Initial source preference | The user chose TEDx talks as candidates because of their usual single-speaker presentation and recording quality. Actual shot coverage, language, and reuse terms still need checking. |
+| Execution environment | Google Colab, explicitly selected by the user. Local retrieval is preparation for the Colab workflow. |
 
 The user's exact final answers to the four scope questions were:
 
@@ -152,7 +154,7 @@ These do not prevent documentation or a provisional plan. Ask before dependent i
 - Is one hour the raw collection budget or the final usable corpus target? Track both until defined.
 - Which videos/speakers are permitted sources, and what can be redistributed?
 - Does the user prefer one speaker or multiple speakers for the first composition experiment? A broad corpus and an easy first composition baseline can have different requirements.
-- What compute, storage, budget, and annotation assistance are available?
+- Google Colab is confirmed. Which runtime tier/resources, persistent storage, budget, and annotation assistance are available?
 - Which phone inventory, pronunciation tool, and alignment method will be used and validated?
 - What exactly will the canonical layer contain: a selected real example, a reference voice, a reference face/rig, numerical articulation features, or a generated paired recording?
 - How will later voice transfer and visual identity transfer be evaluated separately?
@@ -161,8 +163,14 @@ These do not prevent documentation or a provisional plan. Ask before dependent i
 
 ## Evidence and implementation status
 
-Literature and official documentation were inspected during the conversation. None of the candidate tools has been installed or benchmarked for this project. Urdu alignment support in a repository is not measured boundary accuracy. The claim that no suitable dataset exists and the proposed contribution's novelty are unverified.
+Literature and official documentation were inspected during the conversation. No ASR, alignment, or lip-generation candidate has been installed or benchmarked for this project. A local virtual environment now contains acquisition utilities (yt-dlp and imageio-ffmpeg). Urdu alignment support in a repository is not measured boundary accuracy. The claim that no suitable dataset exists and the proposed contribution's novelty are unverified.
 
-No actual dataset collection, transcript correction, forced alignment, phoneme labeling, canonicalization, composition, training, voice transfer, or face transfer has occurred in this project.
+The full TEDx candidate has been downloaded locally and remuxed into an MP4 without re-encoding (excluded from Git). No reviewed dataset clips, transcript correction, forced alignment, phoneme labeling, canonicalization, composition, training, voice transfer, or face transfer have been produced. See `sources/tedx_candidate.json` for the current candidate and evidence status.
 
 The next deliverable is the step-by-step pilot workflow in [PILOT_PLAN.md](PILOT_PLAN.md), followed by resolving only the questions needed for the first actual experiment.
+
+### Source selection follow-up
+
+The user asked the assistant to find/get a TEDx video and said they would run the processing on Google Colab. Candidate: "Urdu-Mera Payaam-e-Muhabbat | Dr. Arfa Zehra | TEDxUCP", official TEDx Talks channel, https://www.youtube.com/watch?v=VD-RK-nY66k. YouTube reports 1,041 seconds and offers a 1080p/30 fps video stream. Its audio metadata says `hi`; actual spoken language must be reviewed rather than silently relabeled. Frames at 90, 180, and 300 seconds show one speaker with an unobstructed face/mouth. This is a visual spot check only; continuous usable intervals and synchronization remain unverified.
+
+The current TED usage policy restricts derivative clips/remixes and unauthorized dubbing, so this candidate is not cleared for the intended reusable dataset release. No permission request has been sent. The acquisition notebook is preparation for inspection, not a completed Colab run or a grant of reuse rights.

@@ -1,0 +1,36 @@
+{
+  "source_id": "VD-RK-nY66k",
+  "source_url": "https://www.youtube.com/watch?v=VD-RK-nY66k",
+  "title": "Urdu-Mera Payaam-e-Muhabbat | Dr. Arfa Zehra | TEDxUCP",
+  "channel": "TEDx Talks",
+  "duration_seconds": 1041,
+  "listed_video_format": {
+    "id": "137",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "listed_audio_format": "140",
+  "platform_language": "hi",
+  "verified_spoken_language": null,
+  "review_status": "downloaded; three frames visually inspected; spoken language, continuous shot suitability and audio-video synchronization still unverified",
+  "pilot_interval": null,
+  "dataset_reuse_permission": "not established; TED standard policy restricts derivatives and unauthorized dubbing",
+  "policy_url": "https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy",
+  "execution_environment": "Google Colab selected by user",
+  "checked_on": "2026-09-26",
+  "download_status": "complete locally; Colab not run",
+  "local_media_path": "data/raw/VD-RK-nY66k.mp4",
+  "size_bytes": 186540168,
+  "sha256": "9fb676e6efea3e2b2dc46399fc93f296e9f8d3518a7abaf7d7737fb845be70c9",
+  "short_decode_check": "first two seconds decoded with both audio and video streams; not a full integrity or sync check",
+  "acquisition_note": "Downloaded listed streams 137 and 140; remuxed with stream copy.",
+  "visual_spot_check": {
+    "sample_times_seconds": [
+      90,
+      180,
+      300
+    ],
+    "observation": "One visible speaker in each inspected frame; face and mouth unobstructed, roughly frontal to three-quarter views. Strong stage lighting. Sampled frames only, not a full shot or mouth-resolution assessment."
+  }
+}
