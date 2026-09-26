@@ -10,3 +10,5 @@
 - Preserve source audio/video pairing and time mappings. Statistical amplitude normalization is not speaker normalization or canonical speech synthesis.
 - Do not claim alignment accuracy, synchronization, identity preservation, or model performance without appropriate evidence.
 - Keep this repository focused on the dataset project. Do not commit credentials, private local account details, unrelated workspace files, or downloaded media without an explicit data-management decision.
+
+- The user confirmed on 2026-09-27 that the pilot transcript is acceptable without edits and requested automated dataset construction. Do not require a filled correction TSV. Use the separate transcript review record; preserve raw ASR output. Automatically retry or exclude uncertain entries rather than blocking each batch for manual labels. Transcript acceptance does not validate boundaries or audiovisual synchronization.

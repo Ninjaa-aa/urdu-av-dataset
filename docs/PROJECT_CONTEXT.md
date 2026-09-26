@@ -167,7 +167,7 @@ Literature and official documentation were inspected during the conversation. Ac
 
 The full TEDx candidate has been downloaded locally and remuxed into an MP4 without re-encoding (excluded from Git). An unreviewed ASR draft now exists. No accepted dataset clips, transcript correction, forced alignment, phoneme labeling, canonicalization, composition, training, voice transfer, or face transfer have been produced. See `sources/tedx_candidate.json` for the current candidate and evidence status.
 
-The current next step is human correction of the pilot transcript and review of usable visual intervals, followed by alignment of corrected text. The broader sequence remains in [PILOT_PLAN.md](PILOT_PLAN.md).
+The current next step is automatic alignment of the user-accepted transcript, followed by automated visual and sync filtering. The broader sequence remains in [PILOT_PLAN.md](PILOT_PLAN.md).
 
 ### Source selection follow-up
 
@@ -196,3 +196,11 @@ The run produced 8 low-probability flags and one zero-length word interval, plus
 Draft annotations are stored in `annotations/drafts/VD-RK-nY66k_0090_0390/`; the reproducible processing notebook is `notebooks/02_transcribe_urdu_pilot.ipynb`. The full review ZIP was downloaded to `/home/hammad/Downloads/urdu_pilot_0090_0390_review.zip` and extracted under `outputs/pilot_0090_0390/`. Model revision and package versions are pinned to the observed run. The executed notebook and outputs are saved in Colab. The browser review page rendered and video loaded, but the in-app browser crashed during playback; use a regular browser with the downloaded review files. `scripts/serve_review.py` supports byte ranges for seeking.
 
 The immediate human contribution is correcting the Urdu transcript against audio in `utterances_for_review.tsv`. Keep raw text unchanged. After correction, run forced alignment and review boundaries; do not reuse old token times blindly after changing words. No additional scope decision was needed to produce this exploratory draft.
+
+### Automation and transcript acceptance — 2026-09-27
+
+The user clarified that they want automated dataset construction and do not want to label the dataset manually. They stated that they reviewed the transcript, found no problem, and consider it correctly extracted. This accepts the existing text for pilot continuation without a replacement file or completed correction TSV. The earlier requirement for manual text correction is superseded.
+
+The user's confirmation is recorded separately in `sources/transcript_review_2026-09-27.json`, tied to the raw transcript hash. It does not establish a measured WER, correct word boundaries, or audiovisual synchronization. The raw output and its original generation-time status remain unchanged.
+
+`AUTOMATED_PIPELINE.md` specifies alignment, visual filtering, speaking-face/sync checks, paired export and a searchable occurrence dictionary. It proposes bounded retries and automatic exclusion of uncertain entries without requiring per-item manual corrections. Automatic labels retain model provenance and uncertainty. These additional processing stages have not yet run. The next operation is Urdu forced alignment of the accepted transcript.

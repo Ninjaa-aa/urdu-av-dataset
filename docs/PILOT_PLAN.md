@@ -1,6 +1,6 @@
 # One-hour Urdu pilot plan
 
-This is a proposed execution plan based on the user's confirmed scope. Source acquisition and an initial five-minute ASR test have now run; see `PROJECT_CONTEXT.md` for evidence and remaining checks. The plan preserves the requested retrieval/composition baseline and a separate canonical layer.
+This is a proposed execution plan based on the user's confirmed scope. Source acquisition and an initial five-minute ASR test have now run; see `PROJECT_CONTEXT.md` for evidence and remaining checks. The plan preserves the requested retrieval/composition baseline and a separate canonical layer. The 2026-09-27 automation decision supersedes mandatory manual correction steps: see [AUTOMATED_PIPELINE.md](AUTOMATED_PIPELINE.md). The current transcript is user-accepted; future batches should retry or exclude uncertain items automatically. Human auditing is optional for production but needed to substantiate human-reference accuracy claims.
 
 ## 1. Define the pilot before acquisition
 

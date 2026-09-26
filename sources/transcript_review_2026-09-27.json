@@ -1,0 +1,22 @@
+{
+  "recorded_on": "2026-09-27",
+  "source_id": "VD-RK-nY66k",
+  "source_interval_seconds": [
+    90,
+    390
+  ],
+  "status": "user_reviewed_accepted_without_edits",
+  "evidence": "User stated they reviewed the transcription, found no problem, and consider it correctly extracted.",
+  "transcript_path": "annotations/drafts/VD-RK-nY66k_0090_0390/transcript_raw.json",
+  "transcript_sha256": "3e6b4d372ded9a722b9dbee323bcfe6f223b473c3c47a45505c9c989ecb66079",
+  "scope": "Transcript text accepted for pilot continuation; no measured WER or per-word audit recorded.",
+  "does_not_validate": [
+    "word boundaries",
+    "phoneme labels",
+    "visual eligibility",
+    "speaker identity",
+    "audiovisual synchronization"
+  ],
+  "manual_correction_required": false,
+  "next_operation": "automatic Urdu forced alignment"
+}
